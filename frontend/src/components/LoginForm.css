@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: url(../pexels-darren-lawrence-3417784.jpeg);
+    background-size:cover;
+}
+
+.login-form {
+    width: 250px;
+    max-width: 300px;
+    margin: 1 rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    opacity: 70;
+}
+  
+  .login-form h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7ad2eb;
+    color: whitesmoke;
+    border: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 90;
+  }
+  
+  .login-form button:hover {
+    background-color: #7ad2eb;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-form p a {
+    color: #007bff;
+    text-decoration: none;
+  }

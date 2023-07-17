@@ -1,0 +1,64 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    height: 270px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 50px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .comment-form {
+    margin-bottom: 20px;
+  }
+  
+  .comment-form textarea,
+  .comment-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comments-container {
+    margin-top: 40px;
+  }
+  
+  .comments-container h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .comments-container div {
+    margin-bottom: 5px;
+  }
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
